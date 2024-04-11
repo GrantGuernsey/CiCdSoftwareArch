@@ -1,0 +1,2 @@
+#define INCLASS_API __declspec(dllexport)
+#define INCLASS_API __declspec(dllimport)
