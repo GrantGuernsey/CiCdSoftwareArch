@@ -3,13 +3,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: MSBuild
+name: Push
 
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  #pull_request:
+  #  branches: [ "main" ]
 
 env:
   # Path to the solution file relative to the root of the project.
