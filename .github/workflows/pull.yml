@@ -50,7 +50,7 @@ jobs:
           path: x64\Release\ # or path/to/artifact
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
 
-    lint:
+  lint:
     
     runs-on: windows-latest
     
