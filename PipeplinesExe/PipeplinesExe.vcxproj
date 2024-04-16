@@ -142,8 +142,11 @@
     <ClCompile Include="PipeplinesExe.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Application\Application.vcxproj">
-      <Project>{f0a7e4a3-6b47-48ff-a0c3-643fcb7b5a91}</Project>
+    <ProjectReference Include="..\InClass\InClass.vcxproj">
+      <Project>{645a549b-3517-452b-b8b7-0b98d9374da6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTest1\UnitTest1.vcxproj">
+      <Project>{6b8544df-cac6-4cdb-9a62-5e3ccf670457}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
