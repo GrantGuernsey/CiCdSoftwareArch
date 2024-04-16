@@ -14,7 +14,8 @@
 class INCLASS_API CInClass {
 public:
 	CInClass(void);
-	// TODO: add your methods here.
+	int Calc(int a, int b);
+	int Ming(int c, int d);
 };
 
 extern INCLASS_API int nInClass;
