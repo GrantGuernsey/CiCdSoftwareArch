@@ -21,7 +21,7 @@ env:
   BUILD_CONFIGURATION: Release
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
 
@@ -98,11 +98,11 @@ jobs:
       
     - name: addEmail
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.email "olekaspt@mail.uc.edu"
+      run: git config --global user.email "guernsgd@mail.uc.edu"
       
     - name: addName
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.name "Patrick Olelas"
+      run: git config --global user.name "Grant Guernsey"
       
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}}
@@ -114,6 +114,10 @@ jobs:
       
     - name: push
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git push      
+      run: git push  
+
+      permissions:
+        contents: write  # To push a branch 
+        pull-requests: write  # To create a PR from that branch    
       
       
