@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "InClass.h"
-
+#include <iostream>
 
 // This is an example of an exported variable
 // INCLASS_API int nInClass=0;
@@ -28,6 +28,7 @@ CInClass::CInClass(void)
 
 int CInClass::Calc(int a, int b)
 {
+    std::cout << "Testing adding cout for last part";
     if (a == b)
     {
         return 2 - a;
