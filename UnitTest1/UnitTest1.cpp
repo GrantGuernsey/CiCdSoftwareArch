@@ -14,7 +14,7 @@ namespace UnitTest1
 		{
 
 			CInClass CInClass;
-			Assert::AreEqual(2, CInClass.Calc(1, 2));
+			Assert::AreEqual(1000, CInClass.Calc(1, 2));
 		}
 
 		TEST_METHOD(TestMethod2)
