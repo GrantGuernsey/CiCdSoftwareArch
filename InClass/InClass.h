@@ -18,8 +18,8 @@ public:
 	int Ming(int c, int d);
 };
 
-extern INCLASS_API int nInClass;
+// extern INCLASS_API int nInClass;
 
-INCLASS_API int fnInClass(void);
+// INCLASS_API int fnInClass(void);
 
-INCLASS_API int testMe(int i);
+// INCLASS_API int testMe(int i);
